@@ -1,0 +1,138 @@
+body{
+  
+    text-align: center;
+   background-color: white;
+   background-image: url(./back.jpg);
+  
+}
+
+input{
+    font-size: larger;
+    font-weight: 500;
+    
+}
+h1{
+    color: white;
+    background-color: brown;
+    width: fit-content;
+    margin-left: 11em;
+    font-size: 2.5em;
+}
+h1:hover{
+    color: blue;
+}
+#logid{
+   color: white;
+   background-color: brown;
+}
+#regid{
+    color: white;
+   background-color: brown;
+}
+
+#ss1{
+    color: red;
+}
+#ss2{
+    color: red;
+}
+#ss1:hover{
+    color: blue;
+    border-radius: 5px;
+}
+#ss2:hover
+{
+    color: blue;
+    border-radius: 5px;
+}
+#ss2:hover{
+    color: blue;
+}
+#a1{
+    margin-left: 22em;
+}
+span#ps{
+    
+    font-size: x-large;
+}
+span#us{
+    font-size: x-large;
+}
+input#su{
+    font-size: larger;
+    margin-left:2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+#su:hover{
+    border-radius: 12px;
+    color: blue;
+}
+#dd1{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#dd1:hover{
+    border-radius: 12px;
+    color: blue;
+  
+}
+#inid{
+    background-color: rgb(180, 241, 241);
+    color: red;
+    
+}
+#psid{
+    background-color: rgb(180, 241, 241);
+    color: red;
+    
+}
+#inid:hover{
+    background-color: antiquewhite;
+    color: blue;
+   
+}
+#psid:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
+#a11{
+    background-color: rgb(180, 241, 241);
+    color: red;
+}
+#a11:hover{
+    background-color:antiquewhite ;
+    color: blue;
+}
+#a12{
+    background-color: rgb(180, 241, 241);
+    color: red;
+}
+#a12:hover{
+    background-color:antiquewhite ;
+    color: blue;
+}
+#a13{
+    background-color: rgb(180, 241, 241);
+    color: red;
+}
+#a13:hover{
+    background-color:antiquewhite ;
+    color: blue;
+}
+#a14{
+    background-color: rgb(180, 241, 241);
+    color: red;
+}
+#a14:hover{
+    background-color:antiquewhite ;
+    color: blue;
+}
+
+span#ss{
+    font-size: x-large;
+}
+span#ge{
+    font-size: large;
+}

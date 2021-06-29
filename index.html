@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Welcome To Login & Registration Page</h1>
+    <div style="text-align: center; margin-top: 2em; margin-bottom: 2em; font-size: larger;">
+<input type="submit" value="Login" onclick="myFun()" id="ss1">
+<input type="submit" value="Register" onclick="myFun1()" id="ss2">
+</div>
+
+<fieldset style="display: none;" id="logid" >
+    <form>
+  <span id="us">User Name : </span> <input type="text" id="inid" maxlength="10"><br><br>
+   <span id="uid" style="display: block; color: yellow;"></span>
+   <span id="ps">Password : </span>&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" id="psid" maxlength="10"><br><br>
+   <span id="pid" style="display: block; color: yellow;"></span>
+   <input type="button" value="Login" id="su" onclick="myFun3()">
+</form>
+</fieldset>
+
+
+<fieldset style="display: none;" id="regid">
+    <form>
+   <span id="ss">First Name :</span>&nbsp; <input type="text" id="a11"><br><br>
+   <span id="aid" style="color: yellow; display: block;"></span>
+   <span id="ss">User Name :</span> &nbsp;<input type="text" id="a12"><br><br>
+   <span id="bid" style="color: yellow; display: block;"></span>
+   <span id="ss">Password :</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="password" id="a13"><br><br>
+   <span id="cid" style="color: yellow; display: block;"></span>
+   <span id="ss">Mobile No : </span>&nbsp;&nbsp;<input type="number" id="a14" maxlength="10"><br><br>
+   <span id="did" style="color: yellow; display: block;"></span>
+   <span id="ss" style="margin-right: 12em;">Gender : </span> <br><br>
+   <span id="ge">Male  </span> <input type="radio" name="gen">
+   <span id="ge">Female  </span><input type="radio" name="gen">
+   <span id="ge">Others  </span> <input type="radio" name="gen"><br><br>
+   <input type="button" value="Signup" onclick="myFun4()" id="dd1">
+</form>
+</fieldset>
+</body>
+</html>
